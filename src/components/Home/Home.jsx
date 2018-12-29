@@ -103,13 +103,13 @@ class Home extends Component {
                     <Typography variant='h3' align='center'>Hello, I'm</Typography>
                     <Typography variant='h3' align='center' gutterBottom>Andrew Huynh</Typography>
                     <Divider />
-                    <Typography variant='body1' align='center'>Welcome to my website! </Typography>
-                    <Typography variant='body1' align='center' gutterBottom>
+                    <Typography variant='h6' align='center'>Welcome to my website! </Typography>
+                    <Typography variant='body1' gutterBottom>
                       {this.state.about}
                     </Typography>
-                    
-                    <Typography variant='body1' align='center'>
-                      (If you're curious, this website was made with ReactJS and Material UI)
+                    <Divider />
+                    <Typography variant='body2'>
+                      (If you're curious, this website was made with <a target="_blank" rel="noopener noreferrer" href='https://reactjs.org/'><b>ReactJS</b></a> and <a target="_blank" rel="noopener noreferrer" href='https://material-ui.com/'><b>MaterialUI</b></a>)
                     </Typography>
                   </CardContent>
                 </div>
@@ -133,12 +133,12 @@ class Home extends Component {
               <Typography variant='h3' align='center'>Hello, I'm</Typography>
               <Typography variant='h3' align='center' gutterBottom>Andrew Huynh</Typography>
               <Divider />
-              <Typography variant='body1' align='center'>Welcome to my website! </Typography>
-              <Typography variant='body1' align='center' gutterBottom>
+              <Typography variant='h6' align='center'>Welcome to my website! </Typography>
+              <Typography variant='body1' gutterBottom>
                 {this.state.about}
               </Typography>
               
-              <Typography variant='body1' align='center'>
+              <Typography variant='body1'>
                 (If you're curious, this website was made with ReactJS and Material UI)
               </Typography>
             </CardContent>

@@ -15,13 +15,16 @@ import ResponsiveEmbed from 'react-responsive-embed';
 const styles = theme => ({
     root: {
         flexGrow: 1,
+        marginTop: theme.spacing.unit * 2,
+        marginBottom: theme.spacing.unit * 2,
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        maxWidth: '1000px'
     },
 
     piano: {
+        flex: '1 0 auto',
         marginTop: theme.spacing.unit * 2,
-        marginLeft: theme.spacing.unit * 2,
-        marginRight: theme.spacing.unit * 2,
-        flex: '1 0 auto'
     },
 });
 
@@ -35,8 +38,10 @@ class Piano extends Component {
         const { classes } = this.props;
 
         return (
-            <div>
-                <Typography variant='h3' align='center'>Piano </Typography>
+            <div className={classes.root}>
+                <Card className={classes.piano}>
+                    <Typography variant='h3' align='center'>Piano </Typography>
+                </Card>
                 <Card className={classes.piano}>
                     <CardContent>
                         <Typography variant='h5' align='center'>One Summer's Day - Spirited Away </Typography>

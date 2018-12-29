@@ -21,7 +21,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-src/img/bananas.png
-src/img/frontpage.jpg
-src/img/pianobg.jpg
-src/img/portrait.jpg
+src/img/*
